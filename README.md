@@ -2,6 +2,8 @@
 
 A backup repository for an information channel.
 
+*This environment may hit a ratelimit, increase the sleep interval at [`./post.js#L72`](./post.js#L72).
+
 ## Configuration
 
 | Key                   | Type             | Description |
