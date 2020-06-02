@@ -10,6 +10,7 @@ A backup repository for an information channel.
 | `webhook.id`          | `string`         |             |
 | `webhook.token`       | `string`         |             |
 | `defaultPayload?=!{}` | `WebhookMessage` |             |
+| `updatePayload?=!{}`  | `WebhookMessage` |             |
 | `!files=[]`           | `string[]`       |             |
 
 -   `!` = required
