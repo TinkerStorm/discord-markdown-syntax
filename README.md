@@ -27,3 +27,40 @@ Rights to the files `config.example.json` and `post.js` are licensed to public d
 - `npm install`
 - (create and configure `config.json` file)
 - `npm start`
+
+### Run sequence
+
+*When building your environment config, you can copy this directly into the file property.
+
+```json
+[
+	"./content/text-styles/basics.md",
+	"./content/text-styles/code-blocks.md",
+	"./content/text-styles/combinations.md",
+
+	"./content/code-colors/asciidoc.md",
+	"./content/code-colors/autohotkey.md",
+	"./content/code-colors/bash.md",
+	"./content/code-colors/coffeescript.md",
+	"./content/code-colors/cpp.md",
+	"./content/code-colors/cs.md",
+	"./content/code-colors/css.md",
+	"./content/code-colors/diff.md",
+	"./content/code-colors/fix.md",
+	"./content/code-colors/glsl.md",
+	"./content/code-colors/ini.md",
+	"./content/code-colors/json.md",
+	"./content/code-colors/md.md",
+	"./content/code-colors/ml.md",
+	"./content/code-colors/prolog.md",
+	"./content/code-colors/tex.md",
+	"./content/code-colors/xl.md",
+	
+	"./content/credits.md"
+]
+```
+
+### Files not used
+
+- `./content/missing.md`
+- `./content/additional.md`
