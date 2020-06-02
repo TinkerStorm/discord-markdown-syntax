@@ -30,7 +30,7 @@ Rights to the files `config.example.json` and `post.js` are licensed to public d
 
 ### Run sequence
 
-*When building your environment config, you can copy this directly into the file property.
+*When building your environment config, you can copy this directly into the file property.*
 
 ```json
 [
