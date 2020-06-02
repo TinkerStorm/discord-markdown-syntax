@@ -64,3 +64,8 @@ Rights to the files `config.example.json` and `post.js` are licensed to public d
 
 - `./content/missing.md`
 - `./content/additional.md`
+
+## Credits
+
+The credit goes to Wolfiri for the original.
+You can join the original server here *it's true origin as a markdown guide*: https://discord.gg/MDnm8TS *not partnered, just accredited and respected for what it is*.
