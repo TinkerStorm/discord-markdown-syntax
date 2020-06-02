@@ -33,3 +33,9 @@ __Lorem ipsum__
 `~~Lorem ipsum~~`
 
 ~~Lorem ipsum~~
+
+**[`Spolier`]**
+
+`||Lorem ipsum||`
+
+||Lorem ipsum||
