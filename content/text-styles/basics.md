@@ -39,3 +39,17 @@ __Lorem ipsum__
 `||Lorem ipsum||`
 
 ||Lorem ipsum||
+
+**[`Escaped Links`]**
+
+`<https://google.com>`
+
+<https://google.com>
+
+**[`Masked Links`]**
+
+**WEBHOOKS ONLY**
+
+`[Google](https://google.com)`
+
+[Google](https://google.com)
