@@ -18,7 +18,7 @@
 
 > `[GitHub](https://github.com "GitHub is where over 65 million developers shape the future of software, together.")`
 
-[GitHub](https://github.com "GitHub is where over 65 million developers shape the future of software, together.")
+[GitHub](<https://github.com> "GitHub is where over 65 million developers shape the future of software, together.")
 
 > **Section Notes**
 > :one: Link mask / Link title are only supported with a [webhook](<https://discord.dev/resources/webhook#execute-webhook>) or an [embed](<https://discordapp.com/developers/docs/resources/channel#embed-object>).
