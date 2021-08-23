@@ -1,0 +1,41 @@
+content: |
+  **[`UNIX Timestamps`]**
+
+  `<t:TIME>`
+  `<t:TIME:style>` 
+
+  <t:1618953630>
+embeds:
+  - title: Timestamp Styles
+    url: https://discord.dev/reference#message-formatting-timestamp-styles
+    fields:
+      - name: Short Time (`t`)
+        value: <t:1618953630:t>
+        inline: true
+      - name: ​ # 200B - Zero Width Space
+        value: ​ # 200B - Zero Width Space
+        inline: true
+      - name: Long Time (`T`)
+        value: <t:1618953630:T>
+        inline: true
+      - name: Short Date (`d`)
+        value: <t:1618953630:d>
+        inline: true
+      - name: ​ # 200B - Zero Width Space
+        value: ​ # 200B - Zero Width Space
+        inline: true
+      - name: Long Date (`D`)
+        value: <t:1618953630:D>
+        inline: true
+      - name: Short Date/Time (`f`)
+        value: <t:1618953630:f>
+        inline: true
+      - name: ​ # 200B - Zero Width Space
+        value: ​ # 200B - Zero Width Space
+        inline: true
+      - name: Long Date/Time (`F`)
+        value: <t:1618953630:F>
+        inline: true
+      - name: Relative Time (`R`)
+        value: <t:1618953630:R>
+        inline: true

@@ -1,0 +1,51 @@
+on:
+  workflow_dispatch:
+    #inputs:
+    #  mode:
+    #    description: "Mode of the workflow (update, replace)"
+    #    default: "update"
+    #    required: false
+
+jobs:
+  post:
+    # if: ${{ github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'update' || github.event.inputs.mode == 'replace') }}
+    # ensure it is one of the supported mode (excessive? yes, quality assurance? also yes.)
+    if: github.repository_owner == 'TinkerStorm'
+    runs-on: ubuntu-latest
+    concurrency: auto-update
+    strategy:
+      max-parallel: 1
+      matrix:
+        include:
+          - webhook: MARKUP_REFERNCE_WEBHOOK
+            config: ./configs/markup.json
+          - webhook: CODESYNTAX_REFERENCE_WEBHOOK
+            config: ./configs/codesyntax.json
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          check-latest: true
+      - name: Install dependencies
+        run: |
+          node -v
+          npm install
+          git pull # ensure the latest cache is pulled
+      - name: Run sequence
+        run: npm run sequence -- --config ${{ matrix.config }}
+        env:
+          WEBHOOK_URL: ${{ secrets[matrix.webhook] }}
+
+      - name: Push cache update if any
+        run: |
+          if [ "$(git status ./cache.json --porcelain)" ]; then
+            git config user.name "GitHub Actions"
+            git config user.email "actions@github.com"
+
+            git add ./cache.json
+            git commit -m "auto: Update cache.json"
+            git push
+          fi

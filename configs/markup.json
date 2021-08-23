@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TinkerStorm/channel-backup/main/schemas/config.json",
+  "files": [
+    "./content/markup/basics.md",
+    "./content/markup/timestamps.yml",
+    "./content/markup/links.md",
+    "./content/markup/code-blocks.md",
+    "./content/markup/limits.md",
+    "./content/additional.md",
+    "./content/credits.md"
+  ]
+}
