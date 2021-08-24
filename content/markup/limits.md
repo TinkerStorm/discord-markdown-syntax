@@ -1,5 +1,5 @@
 > **```ini
->                   [Limits]
+>                 [ Limits ]
 >   # How do I know if I've gone too far? #  
 > ```**
 

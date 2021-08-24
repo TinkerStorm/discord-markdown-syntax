@@ -1,5 +1,8 @@
 content: |
-  **[`UNIX Timestamps`]**
+  > **```ini
+  >      [ UNIX Timestamps ]
+  >   # For All Time. Always. #  
+  > ```**
 
   `<t:TIME>`
   `<t:TIME:style>` 

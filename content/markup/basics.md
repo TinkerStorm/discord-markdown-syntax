@@ -1,6 +1,7 @@
-```ini
-  [ Markdown Guide ]
-```
+> **```ini
+>        [ Markdown Guide ]
+>   # Ok... so where's markup? #
+> ```**
 > **[`TEXT STYLES`]**
 
 **[`Italic`]**
@@ -40,6 +41,16 @@ __Lorem ipsum__
 
 _**Lorem ipsum**_
 
-> **Notes**
-> :one: Any style *outside of codeblocks* can be combined, but...
+> ** Notes**
+> :one: Any style *except of codeblocks* can be combined, but...
 > :two: Styles must closed in reverse order, otherwise a style hook is **_skipped**_ and may cause problems further on.
+
+**[`Blockquote (Indent)`]**
+
+> `> Embed content`
+
+> Embed content
+
+> **Section Notes**
+> :one: Only one level of indentation is supported.
+> :two: Any markdown opened in a blockquote **must also** be closed in the same blockquote.
