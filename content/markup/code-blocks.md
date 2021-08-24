@@ -39,16 +39,14 @@ Markdown!!!
 > *Originally taken from a [blog post from Discord](<https://blog.discord.com/whats-going-down-in-discord-town-40415149018c> "What's Going Down In Discord Town").*  
 
 > **Section Notes**
-> :one: Despite how it may render itself inside an intent with the WYSIWYG editor, it is perfectly valid Markdown given the behaviour.
-> :two: Content provided after an indent will be rendered at least another line below.
+> :one: Any markdown character sequences inside **is treated as literal text**, and will not be rendered as Markdown.
+> :two: Despite how it may render itself inside an intent with the WYSIWYG editor, it is perfectly valid Markdown given the behaviour.
+> :three: Content provided after an indent *with a code block inside* will be rendered at least another line below.
 
 **[`ESCAPE MARKDOWN`]**
 
 > \\\`Lorem ipusm\\\`
 
 \`Lorem ipusm\`
-
-> **Section Notes**
-> :one: Using escape sequences inside of code blocks **does not work** due to `\` being treated as a literal character like everything else with it.
 
 **- - - - - - - - - - - - - - - -**

@@ -2,6 +2,7 @@
 >      [ Additional pointers ]
 >   # What more could you want? #  
 > ```**
+
 :no_entry_sign: Mentions (user, role, channel, emoji) are not covered in this reference, please refer to the [Discord Developer Documentation](<https://discord.dev/reference#message-formatting> "Referencing / Message Formatting").
 
 :warning: Markup on GitHub may not look the same as on Discord.

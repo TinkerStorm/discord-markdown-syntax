@@ -5,7 +5,7 @@
 
 :paperclips: **Headings**
 > Use message links to link to other messages like you would with headers.
-> To use stylized headings, use a format like `> **[`{heading`]**`, or a code block.
+> To use stylized headings, use a format like `> **[`{heading`]**`, a code block or an image attachment.
 
 :clipboard: **Ordered / Unordered lists**
 > Use numbered emojis (:one:, :two:, etc.) to create ordered lists.
