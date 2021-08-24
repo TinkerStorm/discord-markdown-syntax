@@ -1,6 +1,6 @@
 > **```ini
 >          [ Code Highlighting ]
->   # You can only have so much 'space'. #
+>   # You can only have so much 'space'. #  
 > ```**
 
 **[`Single Line`]**
@@ -40,6 +40,7 @@ Markdown!!!
 
 > **Section Notes**
 > :one: Despite how it may render itself inside an intent with the WYSIWYG editor, it is perfectly valid Markdown given the behaviour.
+> :two: Content provided after an indent will be rendered at least another line below.
 
 **[`ESCAPE MARKDOWN`]**
 

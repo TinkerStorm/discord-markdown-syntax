@@ -5,40 +5,46 @@ content: |
   > ```**
 
   `<t:TIME>`
-  `<t:TIME:style>` 
+  `<t:TIME:style>`
 
-  <t:1618953630>
+  [<t:0>](<https://en.wikipedia.org/wiki/Unix_time> "Time since the epoch.") (`0`)
+  [<t:-13837380:F>](<https://en.wikipedia.org/wiki/Apollo_11> "Houston, Tranquility Base Here. The Eagle has Landed.") (`-13837380`)
+
+  > **Section Notes**
+  > :one: Timestamps are shown relative to your own timezone.
+  > :two: This format allows the use of timestamps before the epoch (as shown above).
+  > :three: This uses second precision, instead of millisecond precision (`ms / 1000`).
 embeds:
   - title: Timestamp Styles
     url: https://discord.dev/reference#message-formatting-timestamp-styles
     fields:
       - name: Short Time (`t`)
-        value: <t:1618953630:t>
+        value: <t:0:t>
         inline: true
       - name: ​ # 200B - Zero Width Space
         value: ​ # 200B - Zero Width Space
         inline: true
       - name: Long Time (`T`)
-        value: <t:1618953630:T>
+        value: <t:0:T>
         inline: true
       - name: Short Date (`d`)
-        value: <t:1618953630:d>
+        value: <t:0:d>
         inline: true
       - name: ​ # 200B - Zero Width Space
         value: ​ # 200B - Zero Width Space
         inline: true
       - name: Long Date (`D`)
-        value: <t:1618953630:D>
+        value: <t:0:D>
         inline: true
       - name: Short Date/Time (`f`)
-        value: <t:1618953630:f>
+        value: <t:0:f>
         inline: true
       - name: ​ # 200B - Zero Width Space
         value: ​ # 200B - Zero Width Space
         inline: true
       - name: Long Date/Time (`F`)
-        value: <t:1618953630:F>
+        value: <t:0:F>
         inline: true
       - name: Relative Time (`R`)
-        value: <t:1618953630:R>
+        value: <t:0:R>
         inline: true
