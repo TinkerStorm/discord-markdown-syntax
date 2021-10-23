@@ -5,7 +5,7 @@
 
 :paperclips: **Headings**
 > Use message links to link to other messages like you would with headers.
-> To use stylized headings, use a format like `> **[`{heading`]**`, a code block or an image attachment.
+> To use stylized headings use a style like the ones on top of these messages, a code block or an image attachment.
 
 :clipboard: **Ordered / Unordered lists**
 > Use numbered emojis (:one:, :two:, etc.) to create ordered lists.
@@ -29,3 +29,11 @@
 > Reference-style links
 > Footnotes
 > Definition Lists
+
+:no_mobile_phones: **Mobile Incompatibility**
+> Colourful code blocks (except for Rust, SQL, python, kotlin, JavaScript)
+> Indented code blocks
+> Indented links
+> Formatted links (code blocks prevent rendering)
+> Timestamp mismatch
+> Timestamp links
