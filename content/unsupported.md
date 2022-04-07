@@ -37,3 +37,19 @@
 > Formatted links (code blocks prevent rendering)
 > Timestamp mismatch
 > Timestamp links
+
+<:gh_prclosed:946189991728521216> **Known style problems**
+
+Discord currently prioritises *some* **unicode** emojis over the escape character within markup.
+> This is seen with \:zero: through \:nine:, but remain as the only examples at this time.
+
+Empty space after closing a blockquote with a codeblock. - Reported to be working as intended.
+> There's a styling void that comes with codeblocks in blockquotes, something which still remains as a mystery.
+> However, for now there is a temporary hotfix we've created to eleviate this if you want - though it'll apply to all blockquotes.
+> Try it yourself, with the code below:
+> ```css
+> blockquote {
+>   display: flex;
+>   padding-bottom: 5px;
+> }
+> ```
