@@ -15,7 +15,7 @@ There are a few [content limits](https://discord.com/developers/docs/resources/c
 - **256 characters** per field name (`embed.*.fields.*.name`).
 - **1024 characters** per field value (`embed.*.fields.*.value`).
 - **2048 characters** per footer text (`embed.*.footer.text`).
-- **6000 characters** as a sum cost of all embed attributes per embed.
+- **6000 characters** as a sum cost of all embed attributes across all embeds of a message.
 - **4 image URLs** per embed (`embed.*.image.url`) *when* a URL is present on the initial embed (`embed.*.url`).
 > Other image URLs are added in embeds that immediately follow without any extra content (as shown below) - and the URL should be the same to merge them together.
 
